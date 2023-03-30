@@ -1,0 +1,172 @@
+/*
+Theme Name: LePays
+Text Domain: lepays
+Version: 1.0
+Requires at least: 4.7
+Requires PHP: 5.2.4
+Description: This is a simple theme for the LePays website.
+Author URI: https://wordpress.org/
+Theme URI: https://wordpress.org/themes/lepays/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+All files, unless otherwise stated, are released under the GNU General Public
+License version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned
+with others.
+*/
+
+/* Réinitialisation des styles de base */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+  /* Styles généraux pour le corps */
+  body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5; /* Couleur de fond gris clair */
+  }
+  
+  /* Styles pour les titres */
+  h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2b2d42; /* Couleur bleu foncé pour les titres */
+  }
+  
+  h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2b2d42; /* Couleur bleu foncé pour les titres */
+  }
+  
+  h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #2b2d42; /* Couleur bleu foncé pour les titres */
+  }
+  
+  /* Styles pour les liens */
+  a {
+  color: #2b2d42;
+  text-decoration: none;
+  }
+  
+  a:hover {
+  color: #d90429; /* Couleur rouge vif au survol des liens */
+  }
+  
+  /* Styles pour les articles */
+  article {
+  margin-bottom: 40px; /* Augmentation de la marge basse pour une meilleure lisibilité */
+  }
+  
+  /* Styles pour la pagination */
+  .pagination {
+  display: flex;
+  justify-content: center; /* Centrage de la pagination */
+  align-items: center;
+  margin-top: 30px; /* Augmentation de la marge haute pour une meilleure lisibilité */
+  }
+  
+  .pagination a {
+  margin: 0 10px; /* Espacement des liens */
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #2b2d42;
+  color: #fff;
+  transition: background-color 0.2s ease; /* Transition pour le changement de couleur au survol */
+  }
+  
+  .pagination a:hover {
+  background-color: #d90429;
+  }
+  
+  .pagination .current {
+  background-color: #d90429; /* Couleur de fond pour la page courante */
+  }
+  
+  /* Styles pour les messages d'erreur */
+  .error-message {
+  color: #d90429;
+  font-weight: bold;
+  margin-bottom: 10px; / Augmentation de la marge basse pour une meilleure lisibilité */
+  }
+  
+  /* Styles pour le formulaire de recherche */
+  .search-form {
+  margin-bottom: 30px;
+  }
+  
+  .search-form label {
+  display: block;
+  margin-bottom: 10px; /* Augmentation de la marge basse pour une meilleure lisibilité */
+  font-weight: bold;
+  color: #2b2d42; /* Couleur bleu foncé pour le label */
+  }
+
+.search-form input[type="text"] {
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.search-form input[type="submit"] {
+  padding: 5px 10px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.search-form input[type="submit"]:hover {
+  background-color: #005ea2;
+}
+
+/* Styles pour les widgets */
+.widget {
+  margin-bottom: 30px;
+}
+
+.widget-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #be9e6f; /* Couleur beige pour les titres des widgets */
+}
+
+/* Media queries pour les écrans plus petits */
+@media only screen and (max-width: 768px) {
+  /* Styles pour les titres */
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  /* Styles pour les articles */
+  article {
+    margin-bottom: 20px;
+  }
+
+  /* Styles pour les widgets */
+  .widget {
+    margin-bottom: 20px;
+  }
+}

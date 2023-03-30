@@ -10,7 +10,7 @@ Ce site a été créé avec WordPress, un système de gestion de contenu (CMS) o
 
 ## Comment utiliser
 
-1. Clonez ce dépôt sur votre ordinateur : `git clone `
+1. Clonez ce dépôt sur votre ordinateur : `git clone https://github.com/Eli0uce/LePays-Theme.git`
 2. Installez WordPress sur votre serveur web
 3. Copiez les fichiers de ce dépôt dans le dossier de votre site WordPress
 4. Renommez le dossier en LePays
